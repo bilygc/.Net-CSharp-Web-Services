@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="appMayoristas.asmx.cs" Class="ws_appMayoristas.Service1" %>

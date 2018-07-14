@@ -1,0 +1,6 @@
+C:\Users\bily\Documents\Visual Studio 2010\Projects\ws_appMayoristas\ws_appMayoristas\bin\ws_appMayoristas.dll
+C:\Users\bily\Documents\Visual Studio 2010\Projects\ws_appMayoristas\ws_appMayoristas\bin\ws_appMayoristas.pdb
+C:\Users\bily\Documents\Visual Studio 2010\Projects\ws_appMayoristas\ws_appMayoristas\bin\ICSharpCode.SharpZipLib.dll
+C:\Users\bily\Documents\Visual Studio 2010\Projects\ws_appMayoristas\ws_appMayoristas\obj\Debug\ws_appMayoristas.dll
+C:\Users\bily\Documents\Visual Studio 2010\Projects\ws_appMayoristas\ws_appMayoristas\obj\Debug\ws_appMayoristas.pdb
+C:\Users\bily\Documents\Visual Studio 2010\Projects\ws_appMayoristas\ws_appMayoristas\obj\Debug\ws_appMayoristas.csprojResolveAssemblyReference.cache
