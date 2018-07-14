@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\bily\Documents\ws_appMayoristas" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="ws_appMayoristas" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/ws_appMayoristas.dll" publishTime="06/15/2018 12:44:11" />
+    <file relUrl="appMayoristas.asmx" publishTime="10/13/2017 17:06:30" />
+    <file relUrl="bin/ICSharpCode.SharpZipLib.dll" publishTime="05/25/2010 12:55:22" />
+    <file relUrl="bin/ws_appMayoristas.pdb" publishTime="06/15/2018 12:44:11" />
+    <file relUrl="Web.config" publishTime="12/06/2017 11:07:22" />
+  </publishProfile>
+</publishData>
