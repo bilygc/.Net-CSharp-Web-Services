@@ -71,7 +71,7 @@ namespace ws_appMayoristas
             client.DeliveryMethod = SmtpDeliveryMethod.Network;
             client.UseDefaultCredentials = false;
             client.Host = "smtp.gmail.com";
-            client.Credentials = new System.Net.NetworkCredential("bilygc@calzzapato.com", "calzza013");
+            client.Credentials = new System.Net.NetworkCredential("bilygc@.com", "********");
             client.EnableSsl = true;
             mail.Subject = Titulo;
             mail.Body = Texto;
@@ -93,7 +93,7 @@ namespace ws_appMayoristas
             System.Diagnostics.ProcessStartInfo iniciarInfo = new ProcessStartInfo();
             iniciarInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
             iniciarInfo.FileName = "CMD.exe";
-            iniciarInfo.Arguments = @"/C C:\supports\MensajesInfobip\ConsoleSMS_InfoBip.exe """ + numeroMovil + @"""  """ + texto + @"""  """ + @"""xml""";
+            iniciarInfo.Arguments = @"/C C:\supports\MensajesInfobip\ConsoleSMS_Bip.exe """ + numeroMovil + @"""  """ + texto + @"""  """ + @"""xml""";
             proceso.StartInfo = iniciarInfo;
             proceso.Start();
 
