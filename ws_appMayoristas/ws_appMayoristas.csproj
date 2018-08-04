@@ -67,55 +67,25 @@
   <ItemGroup>
     <Compile Include="Acceso.cs" />
     <Compile Include="Asentamiento.cs" />
-    <Compile Include="BoletinadosMayorista.cs" />
-    <Compile Include="CancelarVale.cs" />
-    <Compile Include="CclasificacionTickets.cs" />
-    <Compile Include="CcrediVale.cs" />
-    <Compile Include="CDetalleTicket.cs" />
     <Compile Include="CenviarCorreoSMS.cs" />
     <Compile Include="CHerramientas.cs" />
     <Compile Include="Ciudades.cs" />
     <Compile Include="ClienteMayorista.cs" />
-    <Compile Include="ClientesMayoristas.cs" />
-    <Compile Include="ClientesMedioContacto.cs" />
-    <Compile Include="CmisValesCompras.cs" />
-    <Compile Include="CMisValesComprasResponse.cs" />
-    <Compile Include="CorteActual.cs" />
-    <Compile Include="CorteAnterior.cs" />
-    <Compile Include="CorteDetalle.cs" />
-    <Compile Include="CPagoMayorista.cs" />
-    <Compile Include="CpostvaleFisico.cs" />
-    <Compile Include="CpuntosCredigana.cs" />
     <Compile Include="CResponseEnviarCorreoSMS.cs" />
-    <Compile Include="CresponseReferenciasBanc.cs" />
-    <Compile Include="CsituacionClientes.cs" />
-    <Compile Include="CtipoCredivale.cs" />
     <Compile Include="CValidaCredivaleResponse.cs" />
-    <Compile Include="DomicilioClientes.cs" />
     <Compile Include="Estados.cs" />
     <Compile Include="Municipios.cs" />
-    <Compile Include="OficinasDeCredito.cs" />
-    <Compile Include="Plazas.cs" />
-    <Compile Include="PostVale.cs" />
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="PuntosMayorista.cs" />
-    <Compile Include="ReferenciasBancarias.cs" />
-    <Compile Include="ReferenciasBancariasGenericas.cs" />
-    <Compile Include="saldoMayoristas.cs" />
     <Compile Include="appMayoristas.asmx.cs">
       <DependentUpon>appMayoristas.asmx</DependentUpon>
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SubclientesMayorista.cs" />
     <Compile Include="TiposDeAsentamiento.cs" />
-    <Compile Include="TiposDeCredito.cs" />
-    <Compile Include="TiposMediosDeContacto.cs" />
-    <Compile Include="ValesMayorista.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

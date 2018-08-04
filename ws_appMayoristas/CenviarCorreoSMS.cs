@@ -122,7 +122,7 @@ namespace ws_appMayoristas
                         if (!string.IsNullOrEmpty(this._textoSMS.Trim()))
                         {
                             
-                            //para finalizar verificamos que el numero de celular de donde se envia sea el que registro el mayorista o que sea un sms de recuperacion de pwd
+                            //para finalizar verificamos que el numero de celular de donde se envia sea el que registro la persona o que sea un sms de recuperacion de pwd
                             if (this.verificarMovilMayorista(this.cCliente, this.movilOrigen) || this.recuperarPwd)
                             {
 
@@ -236,7 +236,7 @@ namespace ws_appMayoristas
                 {
                     int nRegistros;
 
-                    SqlCommand query = new SqlCommand("select cCliente from [Calzapato].[dbo].[eVale_MediosCliente] where cCliente = @CCLIENTE and cReferencia = @MOVIL ", conn);
+                    SqlCommand query = new SqlCommand("select cCliente from [YourEnterprise].[dbo].[eVale_MediosCliente] where cCliente = @CCLIENTE and cReferencia = @MOVIL ", conn);
                     query.Parameters.Add(new SqlParameter("CCLIENTE", cCliente));
                     query.Parameters.Add(new SqlParameter("MOVIL", movil));
 

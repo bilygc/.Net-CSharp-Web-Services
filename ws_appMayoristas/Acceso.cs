@@ -13,14 +13,14 @@ namespace ws_appMayoristas
         public static bool Verificar(string aplicacion, string password)
         {
             int Opcion = 2;
-            string sConexion = System.Configuration.ConfigurationManager.ConnectionStrings["ConnectionStringCalzzapato"].ConnectionString;
+            string sConexion = System.Configuration.ConfigurationManager.ConnectionStrings["ConnectionStringYourEnterprise"].ConnectionString;
             bool Res = false;
 
 
             using (SqlConnection oConexion = new SqlConnection(sConexion))
             {
                 oConexion.Open();
-                SqlCommand cmd = new SqlCommand("swsCalzzapato.sp_wsCalzzapato", oConexion);
+                SqlCommand cmd = new SqlCommand("swsYourEnterprise.sp_wsYourEnterprise", oConexion);
                 cmd.CommandType = CommandType.StoredProcedure;
                 
 
